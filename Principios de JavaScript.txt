@@ -1,0 +1,82 @@
+Web
+Refactorizar {cambiar la estructura interna del codigo sin alterar el comportamiento externo.}
+*********************************************************************
+JavaScript 
+es un legunaje de programacion enfocado en la web y aplicaciones mobiles.
+Este leguaje de programacion tiene POO como paragridma de programacion.
+JavaScript se desarrollo porque antes las paginas eran estaticas.
+
+FrameWorks que son compatibles con JavaScript
+	Vue
+	Angular
+	React
+
+	Un framework entrega herramientas para trabajar con distintos procedimientos
+	una libreria Tambien entrega herramientas pero esta solo intenta resolver un 
+		un problema en especifico.
+
+*********************
+Variables>
+ Las variables se almacenan en la memoria RAM.
+ Una variable almacenada tiene una etiqueta o nombre que se almacena en la memoria RAM
+ porque esta actua como referencia.
+ *RAM = Random Acess Memory
+
+---- Asignacion de variables -----------------
+let > Es una palabra reservada que permite crear variables.
+var> Es una palabra reservada que permite crear variables pero esta tiene mas 		propiedades que let.
+const> Es una palabra reservada que permite crear variables constantes (que su valor sea estatico).
+
+El tipado de variables que maneja JavaScript es de tipo dinamico. Esto significa que es posible cambiar el tipo de dato en una variable, es decir este puede ser una cadena de texto y mas adelante cambiar a uno de tipo numerico.
+
+---- Formas de asginarle nombres a una variable -----------------
+Al momento de asignar una variable no necesariamente sele debe de asignar un valor.
+	Existen reglas al momento de crear una variable
+		*Debe de empezar con una letra.
+		*No debe de tener el mismo nombre que una palabra reservada.
+	Tipos de asignaturas de nombre de variables de nombres.
+		*UpperCamelCase,
+		*camelCase,
+		*snake_case.
+Las variables en JavaScript no son sensibles con los nombre.
+	let NombreCompleto;
+	let nombreCompleto;
+	let nombre_completo;
+Las variables se pueden  asignar de la siguiente forma.
+	let EjemploUno, ejemploDos, ejemplo_tres;
+pero se recomienda asignarlas en distintos espacios. Es importante que nombre de 
+una variable sea clara y no tenga un nombre ambiguo como a o b.
+
+--- Tipos de datos -----------------
+Existen dos tipos de datos
+	*Primitivos {Los datos primitivos se almacenan dentro del apartado Stack de 		la memoria RAM}
+		*Numbre
+		*String
+		*Boolean
+		*Undefined
+		*null
+	*de referencia {Los datos de referencia se almacenan dentro del apartado heap 
+		porque este apartado es adaptable, por esto mismo es que es mas lenta 
+		la busqueda de estos datos.}
+		*Array {Los arreglos dentro de JavaScript se clasifican como objetos}
+		*Object Son una agrupacion de datos que tiene sentido
+			{Persona= nombre: Angel, Edad: 24, pais: Mexio}
+		*Functions
+		*Clases
+----------------------
+Declaraciones y expreciones>
+
+En JavaScript
+	Expression {Cada vez que el codigo realiza un proceso que de como resultado 		un valor}
+	Declaration {Es algo que se va a declarar en el futuro [let, const, function, 		async funcion, export/inport, ...]}
+	Statenet { Es algo que no se declara en el futuro [if, else, for, switch]}
+--- Operadores ----------
+
+	*Aritmeticos
+	*Asigna cion
+	*Comparacion
+	*Logicos
+	*BitWise
+
+
+
