@@ -78,5 +78,41 @@ En JavaScript
 	*Logicos
 	*BitWise
 
+-------- Operadores logicos -----------
+tipos de expreciones
+	*&& = AND {las dos variables/constantes comparadas deben de tener el mismo 		valor para ser verdadero} if(true && true) = true
+	*|| = OR {Una de las dos variables/contantes comparadas debe de ser 			verdadera.} if(verdado || false) = true
+	*! = NOT {valida se la exprecion no es verdadera) if(!true) = true
 
+En caso que se comparen valores que no tiene como resultado un booleano, si el valor es verdadero este arrojada el primer valor comparado, si es falso la consola mostrara el ultimo valor comparado.
+	if( [] || {} ) = []
+	if ( [] && {} ) = {}
+------------- short circuit ----------
+Son por asi decirlo un corto circuito al manejar con cableado electrico.
+Los valores comparibles son {
+	false
+	''
+	0
+	null
+	undefined
+	Nan = {Es el resultado cuando una operacion no tiene respuesta.}
+}
+
+---- Operador ternario ------------
+Un operador ternario tiene como exprecion ? y este tiene una funcion siminar a la de un if.
+	let edad = 24;
+	let acceso = edad >= 18 ? 'Permitir ingreso' : 'no puede ingresar'
+
+la variable acceso tendra el el primer valor si se cumple la primera exprecion sino esta tendra la segunda exprecion
+
+*******************
+Se omitieron {
+	if
+	if else
+	else
+	switch
+	for
+	while} por mis conocimientos basicos en la programacion.
+************************* FIN ********************************************
+	
 
