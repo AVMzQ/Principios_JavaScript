@@ -113,6 +113,59 @@ Se omitieron {
 	switch
 	for
 	while} por mis conocimientos basicos en la programacion.
-************************* FIN ********************************************
-	
 
+************************* FIN ********************************************
+PROGRAMACION ORIENTADA A objetos >
+"La programacion orientada a objetos es un paradigma de
+programacion que utiliza objetos y clases para moldear
+problemas del mundo real."
+
+--- variables ----
+En JavaScript una variable de tipo const no permite 
+cambiarle el valor a esta, sin embargo si esta es de 
+tipo objeto seguimos sin poder cambiarle el valor pero
+si es posible agregarle propiedades y eliminarlas.
+
+Para permitir que el objeto se mantenga estatico y no
+se pueda agregar, cambiar, eliminar propiedades
+se debe de declarar de la siguiente manera.
+	const user = Object.freeze({ id: 1 });
+
+Para permitir que el objeto se mantenga estatico y
+se pueda cambiar el contenido de las propiedades pero,
+no agregar ni eliminar estas se debe de declarar de
+la siguiente manera:
+	const user = Object.seal({id: 1});
+--- Factory -----------------
+Las funciones factory estan paraevitar el codigo repetitivo.
+Estas funciones estan enfocadas en devolver un objeto, mas
+que nada se enfoca en crear los atributos de un objeto.
+Al asignarle un nombre a este tipo de funciones se 
+recomienda utiliza camelCase.
+
+Un ejemplo de la utilizacion de este tipo de funcion es
+la creacion de un usuario. un usuario tiene un nombre, 
+nombre de usuario, correo ...
+--- constuctor --------------------
+Un constuctor es una funcion que se utiliza para crear un
+nuevo objeto o instancia de una clase
+Al asignarle el nombre a un constuctor se espera utilizar
+UpperCamelCase.
+--- Funciones ---------
+En JavaScript una funcion es un bloque de codigo que realizan
+ua tarea especifico y que pueden reutilizarse a voluntad.
+
+Existen dos metodos que nos permiten agregarle propiedades
+a una funcion y estos son:
+	*aplay
+	*call
+--- Listado de propiedades
+En JavaScript se puede decir que es facil eliminar o agregar
+propiedades a una funcion, para estos caso se pueden listar 
+las propiedades de la funcion y de esta manera poder saber que
+propiedades existen en la funcion. Esto se puede hacer gracias a 
+Object.Keys();
+Este no es el unico objeto que existe en JavaScript, tabien existe
+Object.entries();
+es metodo devuelve un par es decir el nombre de
+la propiedad y el valor.
